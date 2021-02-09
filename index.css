@@ -1,0 +1,22 @@
+.container{
+    display: grid;
+    align-items: center;
+    width: 315px;
+    padding: 2px;
+    grid-template-columns: repeat(2,auto);
+    margin: 50px auto;
+    border: 2px solid black;
+}
+.center{
+    text-align: center;
+    margin: 1px auto;
+}
+
+img{
+    margin: 2px;
+    cursor: pointer;
+}
+
+.select{
+    opacity: 0.4;
+}
